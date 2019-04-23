@@ -1,0 +1,29 @@
+INSERT INTO apbd.Studies VALUES ('A');
+INSERT INTO apbd.Studies VALUES ('B');
+INSERT INTO apbd.Studies VALUES ('C');
+
+
+Select * from apbd.Studies;
+
+INSERT INTO apbd.Student VALUES ('Bartek', 'Majewski','Urocza 40','s12345',1);
+INSERT INTO apbd.Student VALUES ('Kamila', 'Kaczor','Urocza 2','s12346',1);
+INSERT INTO apbd.Student VALUES ('Maciej', 'Sikorski','Urocza 13','s12347',2);
+INSERT INTO apbd.Student VALUES ('Alicja', 'Nowakowska','Zachodnia 12','s12348',2);
+INSERT INTO apbd.Student VALUES ('Wiktoria', 'Wasilewska','Brata Alberta 1','s12349',2);
+INSERT INTO apbd.Student VALUES ('Karolina', 'Marzec','Polna 5','s12350',3);
+
+Select * from apbd.Student;
+
+INSERT INTO apbd.Subject VALUES ('Programowanie');
+INSERT INTO apbd.Subject VALUES ('Bazy Danych');
+INSERT INTO apbd.Subject VALUES ('Office');
+INSERT INTO apbd.Subject VALUES ('Jedzenie');
+
+Select * from apbd.Subject;
+
+
+INSERT INTO apbd.Student_Subject VALUES (1,1,'12-12-2000');
+INSERT INTO apbd.Student_Subject VALUES (1,2,'12-12-2000');
+INSERT INTO apbd.Student_Subject VALUES (1,3,'12-12-2000');
+
+Select * from apbd.Student_Subject;
