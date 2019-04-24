@@ -8,7 +8,6 @@ using System.Windows.Controls;
 
 namespace Cwiczenia7
 {
-    //dupaaaa
     public partial class MainWindow : Window
     {
         ObservableCollection<Student> list;
